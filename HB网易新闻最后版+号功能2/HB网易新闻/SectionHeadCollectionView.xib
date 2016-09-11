@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="head" id="U6b-Vx-4bR" customClass="SectionHeadCollectionView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULK-bK-cZD">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ULK-bK-cZD" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="3MV-9W-wQJ"/>
+                <constraint firstAttribute="trailing" secondItem="ULK-bK-cZD" secondAttribute="trailing" id="BSj-kf-Z6f"/>
+                <constraint firstItem="ULK-bK-cZD" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="E2e-kO-JHR"/>
+                <constraint firstAttribute="bottom" secondItem="ULK-bK-cZD" secondAttribute="bottom" id="W0F-G3-lXz"/>
+            </constraints>
+            <connections>
+                <outlet property="lalbe" destination="ULK-bK-cZD" id="aHT-8w-TRr"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+</document>
